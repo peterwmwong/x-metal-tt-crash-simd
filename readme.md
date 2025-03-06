@@ -1,3 +1,5 @@
+> :exclamation: **3/26/2025 Update:** This issue (FB15482904) has been resolved using the combination of Xcode 16.3 Beta 2 (16E5121h) and macOS 15.4 Beta 2 (24E5222f)!
+
 This [Metal Compute shader](./main.metal) and [Pipelines Script](./pipelines.mtlp-json) reproduces a `metal-tt` crash.
 
 Using the result of a simd reduction (ex. `simd_prefix_exclusive_sum`) in the following way causes `metal-tt` to peace out...
